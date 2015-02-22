@@ -1,20 +1,170 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+/* begin common block */
 
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #ededed;
+    font-family: "Lato", Verdana, Arial, sans-serif;
+}
 
+.main-container {
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    box-shadow: 0 0 10px #d3d3d3;
+    background-color: #fff;
+    overflow: hidden;
+}
 
+/* end common block */
 
+.row {
+    margin-right: -16px;
+}
 
+/* begin logo block */
 
+.logo {
+    font-size: 19px;
+    padding: 22px 0px 22px 30px;
+}
 
+.logo i {
+    color: #777;
+}
 
+.logo span {
+    color: #696969;
+    padding-left: 10px;
+}
 
+/* end logo block */
 
+/* start account block*/
 
+.account {
+    background-color: #3e586a;
+    padding: 24px 0px 24px 30px;
+    /*border-radius: 0px 5px 0px 0px;*/
+}
+
+.account .account-link {
+    color: #fff;
+    font-size: 19px;
+}
+
+.account .account-link span {
+    padding-right: 5px;
+}
+
+/* end account block*/
+
+/* begin menu pills */
+
+.menu-pills {
+    padding: 21px 0px 21px 0px;
+}
+
+.menu-pills .nav-pills {
+    float: left;
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;
+}
+
+.menu-pills .nav-pills ul {
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+}
+
+.menu-pills .nav-pills > li + li {
+    margin-left: 0px;
+}
+
+.menu-pills .nav-pills li a {
+    color: #4f4f4f;
+    padding: 7px 17px;
+    border-radius: 0px;
+    border-left: 1px solid #dbdbdb;
+    font-size: 12px;
+}
+
+.menu-pills .nav-pills li.first-pill a {
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+}
+
+.menu-pills .nav-pills li.last-pill a {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.menu-pills .nav-pills li.active a {
+    background-color: #efefef;
+}
+
+/* end menu pills */
+
+/* start search block */
+
+.search {
+    background-color: #3e586a;
+    color: #c5c5c5;
+    font-size: 14px;
+    padding: 19px 0px 18px 30px;
+}
+
+/* end search block */
+
+/* start breadcramp block */
+
+.breadcramp {
+    height: 57px;
+    background-color: #5996f1;
+    color: #fff;
+    padding: 19px 20px 18px 20px;
+}
+
+.breadcramp a {
+    color: #fff;
+}
+
+/* end breadcramp block */
+
+/* start left menu block */
+
+.menu-left {
+    border-right: 1px solid #e8e8e8;
+    padding-top: 19px;
+}
+
+.menu-left ul.list-unstyled {
+    width: 100%;
+}
+
+.menu-left li{
+    padding: 10px 10px 10px 25px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.menu-left li a {
+    color: #3a4452;
+    font-size: 16px;
+}
+
+.menu-left li.active{
+    background-color: #ececec;
+}
+
+.copyright {
+    border-top: 1px solid #e8e8e8;
+    padding: 24px 10px 10px 10px;
+    font-size: 12px;
+    color: #7a7a7a;
+}
+
+/* end left menu block */
 
 
 
