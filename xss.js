@@ -20,7 +20,7 @@ function setCookies (good) {
 }
  
 function makeRequest() {
-    setCookies();
+    //setCookies();
  
     function parseCookies () {
         var cookie_dict = {};
@@ -39,7 +39,7 @@ function makeRequest() {
                 }
             }
             // Unset malicious cookies
-            setCookies(true);
+            //setCookies(true);
             alert(JSON.stringify(cookie_dict));
         }
     }
