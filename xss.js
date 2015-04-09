@@ -50,4 +50,4 @@ function makeRequest() {
     xhr.send(null);
 }
  
-makeRequest();
+//makeRequest();
